@@ -30,7 +30,7 @@ class App {
 
   createWindow () {
     this.window = new BrowserWindow(windowOption)
-    this.window.setMenu(null)
+  //  this.window.setMenu(null)
     this.window.loadURL(windowUrl)
     this.window.show()
   }
